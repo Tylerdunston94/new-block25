@@ -1,0 +1,118 @@
+body {
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+
+#app {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#navbar {
+  flex-grow: 1;
+  max-height: 10%;
+  min-height: 40px;
+  background-color: #222222;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+#navbar div {
+  padding: 5px;
+}
+
+#colors-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#colors-list div {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-top: 40px;
+  transition: all 1s ease;
+}
+
+.selected {
+  border: 2px solid black;
+}
+
+/* colors */
+.red {
+  background-color: #cf000f;
+}
+.orange {
+  background-color: #eb6b56;
+}
+.yellow {
+  background-color: #ffc153;
+}
+.green {
+  background-color: #27ae60;
+}
+.blue {
+  background-color: #1d4fda;
+}
+.violet {
+  background-color: #462446;
+}
+.black {
+  background-color: #000000;
+}
+.white {
+  background-color: #ffffff;
+}
+#navbar {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+#navbar .yellow {
+  color: yellow; /* Adjust text color for the selected color */
+}
+
+#navbar .green {
+  color: green; /* Adjust text color for the selected color */
+}
+
+#navbar .black {
+  color: white; /* Adjust text color for the selected color */
+}
+.yellow {
+  width: 100px; /* width of the circle */
+  height: 100px; /* height of the circle */
+  border-radius: 50%; /* makes it a circle */
+  background-color: yellow; /* color of the circle */
+  display: inline-block; /* keeps the circles inline */
+  margin: 10px; /* spacing between circles */
+}
+
+.green {
+  width: 100px; /* width of the circle */
+  height: 100px; /* height of the circle */
+  border-radius: 50%; /* makes it a circle */
+  background-color: green; /* color of the circle */
+  display: inline-block; /* keeps the circles inline */
+  margin: 10px; /* spacing between circles */
+}
+
+.black {
+  width: 100px; /* width of the circle */
+  height: 100px; /* height of the circle */
+  border-radius: 50%; /* makes it a circle */
+  background-color: black; /* color of the circle */
+  display: inline-block; /* keeps the circles inline */
+  margin: 10px; /* spacing between circles */
+}
